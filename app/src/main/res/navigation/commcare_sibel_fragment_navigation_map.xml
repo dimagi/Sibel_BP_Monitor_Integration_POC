@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/commcare_sibel_fragment_navigation_map"
+    app:startDestination="@id/confirmDemographics">
+    <fragment
+        android:id="@+id/confirmDemographics"
+        android:name="com.commcare.dalvik.sibel.ConfirmDemographics"
+        android:label="@string/top_bar_confirm_person">
+        <action
+            android:id="@+id/action_confirmDemographics_to_BPMonitoringDeviceConnected"
+            app:destination="@id/BPMonitoringDeviceConnected" />
+    </fragment>
+    <fragment
+        android:id="@+id/BPMonitoringDeviceConnected"
+        android:name="com.commcare.dalvik.sibel.BPMonitoringDeviceConnected"
+        android:label="@string/fragment_bp_monitoring_device_connected"
+        tools:layout="@layout/fragment_bp_monitoring_device_connected" >
+        <action
+            android:id="@+id/action_BPMonitoringDeviceConnected_to_connectionFragment"
+            app:destination="@id/connectionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/connectionFragment"
+        android:name="com.commcare.dalvik.sibel.ConnectionFragment"
+        android:label="@string/connectDevice">
+        <action
+            android:id="@+id/action_connectionFragment_to_biolandBPMonitoring"
+            app:destination="@id/biolandBPMonitoring" />
+    </fragment>
+    <fragment
+        android:id="@+id/biolandBPMonitoring"
+        android:name="com.commcare.dalvik.sibel.BiolandBPMonitoring"
+        android:label="@string/biolandBP" />
+</navigation>

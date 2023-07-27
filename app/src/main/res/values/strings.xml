@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Sibel CommCare BP Monitor</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="confirm_person_demographics">Confirm Person\'s Demographics</string>
+    <string name="person_name">Name of Person: %s</string>
+    <string name="person_phone_number">Phone Number: %s</string>
+    <string name="button_confirm">Confirm</string>
+    <string name="top_bar_confirm_person">Confirm Person</string>
+    <string name="device_connected">Device Status: %s</string>
+    <string name="bp_device_connected">BP Device Connection Status: %s</string>
+    <string name="device_connected_proceed">Proceed</string>
+    <string name="fragment_bp_monitoring_device_connected">Check BP Monitoring Device Status</string>
+    <string name="bluetooth_disabled_help">(Bluetooth is OFF. Please enable it and retry)</string>
+    <string name="device_not_connected">Device Status: %s</string>
+    <string name="device_not_connected_exit">Exit</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="confirm_bluetooth_enabled"> Bluetooth Status</string>
+    <string name="bluetooth_status">Bluetooth Status: %s</string>
+    <string name="bluetooth_proceed_refresh"></string>
+    <string name="time_stamp">Timestamp: </string>
+    <string name="data">Data: </string>
+    <string name="data_package">DataPackage-%1$s</string>
+    <string name="data_package_error">Error</string>
+    <string name="not_connected"> Not Connected </string>
+    <string name="connected">Connected</string>
+    <string name="connection_status">Connection Status: </string>
+    <string name="refresh">Refresh</string>
+    <string name="scan_bp_device">Find BP Device</string>
+    <string name="stop_scan">Stop Scan</string>
+    <string name="start_scan">Start Scan</string>
+    <string name="sensor_name">Sensor Name</string>
+    <string name="sensor_type">SensorType</string>
+    <string name="sensor_rssi">RSSI</string>
+    <string name="select">Select</string>
+    <string name="serialize">Serialize</string>
+    <string name="timeout">Timeout:</string>
+    <string name="milliseconds">ms</string>
+    <string name="skip_init">Skip Init</string>
+    <string name="autoconnect">Auto Connect</string>
+    <string name="battery_level">Battery Level</string>
+    <string name="systolic_BP">Systolic BP</string>
+    <string name="diastolic_BP">Diastolic BP</string>
+    <string name="pulse_rate">Pulse Rate</string>
+    <string name="start_bp_measure">Start Measurement</string>
+    <string name="stop_bp_measure">Stop Measurement</string>
+    <string name="return_btn">Return</string>
+    <string name="proceed">Proceed</string>
+    <string name="connectDevice">Connect to BP Device</string>
+    <string name="biolandBP">Bioland BP Device</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
